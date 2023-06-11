@@ -20,12 +20,12 @@ date:date,
 return
 {
 <div>
-<TextField value={fromLocation}>From</TextField>
-<TextField value={toLocation}>TO</TextField>
-<TextField value={departureData}>Departure Date</TextField>
-<TextField value={returnTrip}> Add Return Trip</TextField>
-<TextField value={noOfPassanger}>Passenger & Extra Seat</TextField>
-<TextField value={currencytype}>Pay In Crrency</TextField>
+<TextField value={state.fromLocation}>From</TextField>
+<TextField value={state.toLocation}>TO</TextField>
+<TextField value={state.departureData}>Departure Date</TextField>
+<TextField value={state.returnTrip}> Add Return Trip</TextField>
+<TextField value={state.noOfPassanger}>Passenger & Extra Seat</TextField>
+<TextField value={state.currencytype}>Pay In Crrency</TextField>
 
 <button>Search Flight</button>
 </div>
